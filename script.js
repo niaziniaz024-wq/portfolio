@@ -3,9 +3,22 @@ const toggleButton = document.querySelector('.theme-toggle');
 const themeIcon = document.querySelector('.theme-icon');
 const yearElement = document.getElementById('year');
 const revealItems = document.querySelectorAll('.reveal');
+const profilePortrait = document.querySelector('.profile-portrait');
+const avatarCircle = document.querySelector('.avatar-circle');
 
 if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
+}
+
+if (profilePortrait && avatarCircle) {
+  profilePortrait.addEventListener('load', () => {
+    avatarCircle.style.display = 'none';
+  });
+
+  profilePortrait.addEventListener('error', () => {
+    profilePortrait.style.display = 'none';
+    avatarCircle.style.display = 'grid';
+  });
 }
 
 const applyTheme = (isLight) => {
