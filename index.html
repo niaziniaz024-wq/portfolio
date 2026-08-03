@@ -65,7 +65,13 @@
               <div class="profile-card">
                 <div class="avatar-block">
                   <div class="avatar-ring">
-                    <div class="avatar-circle">UJ</div>
+                    <img
+                      class="profile-portrait"
+                      src="assets/profile.jpg"
+                      alt="Usman Jawad portrait"
+                      onerror="this.style.display='none'; this.parentElement.querySelector('.avatar-fallback').style.display='grid';"
+                    />
+                    <div class="avatar-fallback" aria-label="Usman Jawad initials">UJ</div>
                   </div>
                 </div>
                 <div class="status-panel">
