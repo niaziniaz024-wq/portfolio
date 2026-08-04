@@ -12,11 +12,15 @@ if (yearElement) {
 
 if (profilePortrait && avatarCircle) {
   profilePortrait.addEventListener('load', () => {
-    avatarCircle.style.display = 'none';
+    avatarCircle.style.opacity = '0';
+    avatarCircle.style.visibility = 'hidden';
+    avatarCircle.style.display = 'grid';
   });
 
   profilePortrait.addEventListener('error', () => {
     profilePortrait.style.display = 'none';
+    avatarCircle.style.opacity = '1';
+    avatarCircle.style.visibility = 'visible';
     avatarCircle.style.display = 'grid';
   });
 }
