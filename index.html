@@ -431,18 +431,26 @@
               </div>
             </div>
 
-            <form class="contact-form" action="#" method="post">
+            <form
+              class="contact-form"
+              action="https://formsubmit.co/niaziniaz024@gmail.com"
+              method="POST"
+              accept-charset="UTF-8"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_subject" value="New portfolio message from website" />
               <div class="field-group">
                 <label for="name">Name</label>
-                <input id="name" name="name" type="text" placeholder="Your name" />
+                <input id="name" name="name" type="text" placeholder="Your name" required />
               </div>
               <div class="field-group">
                 <label for="email">Email</label>
-                <input id="email" name="email" type="email" placeholder="Your email" />
+                <input id="email" name="email" type="email" placeholder="Your email" required />
               </div>
               <div class="field-group">
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" placeholder="Your message"></textarea>
+                <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
               </div>
               <button type="submit" class="primary-btn">Send Message</button>
             </form>

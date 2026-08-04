@@ -55,17 +55,20 @@ const observer = new IntersectionObserver(
 
 revealItems.forEach((item) => observer.observe(item));
 
-document.querySelector('.contact-form')?.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const button = event.currentTarget.querySelector('button[type="submit"]');
+document.querySelector('.contact-form')?.addEventListener('submit', () => {
+  const button = document.querySelector('.contact-form button[type="submit"]');
   if (button) {
     const originalText = button.textContent;
-    button.textContent = 'Message Sent';
+    button.textContent = 'Sending...';
     button.disabled = true;
+
+    setTimeout(() => {
+      button.textContent = 'Sent';
+    }, 1000);
+
     setTimeout(() => {
       button.textContent = originalText;
       button.disabled = false;
-      event.currentTarget.reset();
-    }, 1800);
+    }, 5000);
   }
 });
