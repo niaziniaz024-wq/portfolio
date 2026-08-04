@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="Automation illustration">
+  <rect width="640" height="320" rx="36" fill="#dff3f3"/>
+  <rect x="70" y="100" width="500" height="120" rx="20" fill="#edf8f7" stroke="#9ec7d9" stroke-width="2"/>
+  <circle cx="140" cy="160" r="34" fill="#a8d7d1"/>
+  <circle cx="258" cy="160" r="34" fill="#b8d9fa"/>
+  <circle cx="376" cy="160" r="34" fill="#a9d4c8"/>
+  <circle cx="494" cy="160" r="34" fill="#d0e7fb"/>
+  <path d="M174 160 H224 M292 160 H342 M410 160 H460" stroke="#4077b2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M128 122 L152 100 L176 122" fill="none" stroke="#2f6fa9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M246 122 L270 100 L294 122" fill="none" stroke="#2f6fa9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M364 122 L388 100 L412 122" fill="none" stroke="#2f6fa9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M482 122 L506 100 L530 122" fill="none" stroke="#2f6fa9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="118" y="218" width="148" height="18" rx="9" fill="#3d7ec7" opacity="0.7"/>
+  <rect x="286" y="218" width="148" height="18" rx="9" fill="#68b9a4" opacity="0.8"/>
+  <rect x="454" y="218" width="92" height="18" rx="9" fill="#8db8ea" opacity="0.7"/>
+</svg>

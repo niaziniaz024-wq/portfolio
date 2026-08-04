@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="Dashboard illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#dff3f1"/>
+      <stop offset="100%" stop-color="#dfe9ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="320" rx="36" fill="url(#bg)"/>
+  <rect x="52" y="52" width="536" height="216" rx="24" fill="#ecf8f7" stroke="#9cc8d2" stroke-width="2"/>
+  <rect x="82" y="82" width="170" height="42" rx="12" fill="#97d6d1" opacity="0.7"/>
+  <rect x="82" y="152" width="170" height="82" rx="16" fill="#c6eee6"/>
+  <rect x="280" y="82" width="270" height="42" rx="12" fill="#d2e6ff"/>
+  <rect x="280" y="152" width="270" height="82" rx="16" fill="#dbeaf9"/>
+  <path d="M310 210 C340 180, 360 170, 385 185 S430 210, 460 175 S510 150, 540 165" fill="none" stroke="#3e8cc7" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="385" cy="185" r="7" fill="#4fc1a6"/>
+  <circle cx="460" cy="175" r="7" fill="#7ca4ff"/>
+  <circle cx="540" cy="165" r="7" fill="#6bd7c8"/>
+  <rect x="110" y="170" width="110" height="12" rx="6" fill="#3e8cc7" opacity="0.8"/>
+  <rect x="110" y="194" width="76" height="12" rx="6" fill="#7ba7d8" opacity="0.7"/>
+  <rect x="110" y="218" width="92" height="12" rx="6" fill="#7bc6c0" opacity="0.7"/>
+</svg>

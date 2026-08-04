@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="Mobile app illustration">
+  <rect width="640" height="320" rx="36" fill="#dfeef3"/>
+  <rect x="220" y="26" width="200" height="268" rx="28" fill="#f4fbfd" stroke="#8fb5cc" stroke-width="2"/>
+  <rect x="250" y="68" width="140" height="182" rx="18" fill="#d2f0ed"/>
+  <rect x="265" y="86" width="110" height="18" rx="9" fill="#5eaabc" opacity="0.8"/>
+  <rect x="265" y="118" width="82" height="12" rx="6" fill="#76c2af" opacity="0.8"/>
+  <rect x="265" y="144" width="90" height="12" rx="6" fill="#a7d4f2" opacity="0.7"/>
+  <rect x="266" y="176" width="108" height="52" rx="12" fill="#d9ebff"/>
+  <path d="M290 201 L310 182 L329 201 L345 183" fill="none" stroke="#2d7db5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="175" cy="214" r="46" fill="#c2e9ea"/>
+  <circle cx="465" cy="118" r="38" fill="#dfeaff"/>
+  <rect x="120" y="110" width="94" height="14" rx="7" fill="#7db9c7" opacity="0.7"/>
+  <rect x="100" y="142" width="116" height="14" rx="7" fill="#9cc9bf" opacity="0.7"/>
+  <rect x="436" y="158" width="112" height="14" rx="7" fill="#95c5eb" opacity="0.7"/>
+</svg>
