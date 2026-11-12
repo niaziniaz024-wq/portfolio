@@ -1016,6 +1016,13 @@ h3 {
     box-shadow 0.45s var(--ease);
 }
 
+.project-card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
 .project-card:hover {
   transform: translateY(-7px);
   border-color: var(--line-strong);
@@ -1025,11 +1032,65 @@ h3 {
 .project-visual {
   position: relative;
   aspect-ratio: 16 / 10;
-  display: grid;
-  place-items: center;
-  background: var(--surface-2);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 1.1rem;
+  background: linear-gradient(135deg, #101827 0%, #253352 100%);
   border-bottom: 1px solid var(--line);
   overflow: hidden;
+}
+
+.project-visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(6, 10, 20, 0.14), rgba(8, 10, 18, 0.74));
+}
+
+.project-visual--christies {
+  background: linear-gradient(135deg, #1d1d1d 0%, #a67634 100%);
+}
+
+.project-visual--rugdistrict {
+  background: linear-gradient(135deg, #5d3c2f 0%, #d9b58b 100%);
+}
+
+.project-visual--cookshop {
+  background: linear-gradient(135deg, #322518 0%, #d08a4d 100%);
+}
+
+.project-visual--newbalance {
+  background: linear-gradient(135deg, #0e243d 0%, #d23a2f 100%);
+}
+
+.project-visual--medusa {
+  background: linear-gradient(135deg, #171b1f 0%, #8a7d69 100%);
+}
+
+.project-visual-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  color: #fff;
+}
+
+.project-domain {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  opacity: 0.8;
+}
+
+.project-visual-inner strong {
+  font-size: clamp(1.15rem, 1.2vw + 0.8rem, 1.7rem);
+  line-height: 1.15;
+}
+
+.project-card:hover .project-visual {
+  filter: saturate(1.1);
 }
 
 .project-visual img {
